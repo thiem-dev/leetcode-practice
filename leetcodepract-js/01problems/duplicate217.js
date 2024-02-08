@@ -19,9 +19,9 @@ var containsDuplicate = function (nums) {
 
 module.exports = containsDuplicate;
 
-// test cases
-const nums1 = [1, 2, 3, 4, 5];
-console.log(containsDuplicate(nums1)); // Output: false
+// // test cases
+// const nums1 = [1, 2, 3, 4, 5];
+// console.log(containsDuplicate(nums1)); // Output: false
 
-const nums2 = [1, 2, 3, 4, 1];
-console.log(containsDuplicate(nums2)); // Output: true
+// const nums2 = [1, 2, 3, 4, 1];
+// console.log(containsDuplicate(nums2)); // Output: true
