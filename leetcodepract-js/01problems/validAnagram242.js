@@ -4,7 +4,7 @@
  * @return {boolean}
  */
 // source: https://leetcode.com/problems/valid-anagram/
-// O(n^2) operation
+// O(n) operation
 
 var isAnagram = function (s, t) {
   if (s.length !== t.length) {
