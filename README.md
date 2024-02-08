@@ -2,11 +2,16 @@
 
 My repos for practicing leetcode daily
 
-# Approach
+
+
+
+
+
+# JS Approach
 
 Using my own TDD to practice and see code debugging that isn't available in free leetcode.
 
-## Running locally
+## Running locally for
 
 - `cd [leetcodepract-js]`
 - `npm i`
@@ -16,3 +21,7 @@ Using my own TDD to practice and see code debugging that isn't available in free
 
 - test one `npm run test-1`
 - test whole directory `npm run test-everything`
+
+
+# C++ approach 
+- to be added later, still learning
