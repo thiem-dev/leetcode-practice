@@ -19,8 +19,8 @@ Using my own TDD to practice and see code debugging that isn't available in free
 
 #### Testing Locally
 
-- test one `npm run test-1`
-- test whole directory `npm run test-everything`
+- test one `npm run test-[problemid]`
+- test whole directory `npm run test`
 
 
 # C++ approach 
