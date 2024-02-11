@@ -7,17 +7,20 @@ var isPalindrome = function (s) {
   if (s === " ") {
     return true;
   }
-  const cleanedString = s.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
+  const newStr = s.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
 
-  let leftpt = 0;
-  let rightpt = s.length - 1;
+  let left = 0;
+  let right = newStr.length - 1;
 
   while (left < right) {
-    // while(cleanedString[left])
-    return true;
+    if (newStr[left] !== newStr[right]) {
+      return false;
+    }
+    left++;
+    right--;
   }
 
-  // console.log("cleaned string is:", cleanedString);
+  return true;
 };
 
 module.exports = isPalindrome;
