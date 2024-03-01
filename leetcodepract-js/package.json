@@ -10,7 +10,8 @@
     "test-217": "jest tests/containsDuplicate.test.js",
     "test-242": "jest tests/validAnagram.test.js",
     "test-1": "jest tests/twoSum.test.js",
-    "test-125": "jest tests/validPalindrome.test.js"
+    "test-125": "jest tests/validPalindrome.test.js",
+    "test-20": "jest tests/validParentheses.test.js"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
