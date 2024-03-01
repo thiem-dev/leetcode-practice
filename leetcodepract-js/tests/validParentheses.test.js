@@ -14,4 +14,12 @@ describe("isValidParentheses", () => {
     s = "(]";
     expect(isValid(s)).toBe(false);
   });
+  it("return false if empty string", () => {
+    s = "";
+    expect(isValid(s)).toBe(false);
+  });
+  it("return false if string contains no parentheses", () => {
+    s = "abc";
+    expect(isValid(s)).toBe(false);
+  });
 });

@@ -22,8 +22,15 @@ var isValid = function (s) {
       if (stack.length === 0) {
         return false;
       }
+
+      const lastOpenBracket = stack.pop();
+      if (bracketPairs[lastOpenBracket] !== char) {
+        return false;
+      }
     }
   }
+
+  return stack.length === 0; //stack must be empty to be valid.
 };
 
 module.exports = isValid;
