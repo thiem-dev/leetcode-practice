@@ -11,7 +11,8 @@
     "test-242": "jest tests/validAnagram.test.js",
     "test-1": "jest tests/twoSum.test.js",
     "test-125": "jest tests/validPalindrome.test.js",
-    "test-20": "jest tests/validParentheses.test.js"
+    "test-20": "jest tests/validParentheses.test.js",
+    "test-704": "jest tests/binarySearch.test.js"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
