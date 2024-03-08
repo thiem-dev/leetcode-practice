@@ -21,8 +21,8 @@ var maxProfit = function (prices) {
 
 module.exports = maxProfit;
 
-const prices = [7, 1, 5, 3, 6, 4];
-console.log(maxProfit(prices));
+// const prices = [7, 1, 5, 3, 6, 4];
+// console.log(maxProfit(prices));
 
-const noprice = [7, 6, 4, 3, 1];
-console.log(maxProfit(noprice));
+// const noprice = [7, 6, 4, 3, 1];
+// console.log(maxProfit(noprice));
